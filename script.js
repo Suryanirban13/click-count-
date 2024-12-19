@@ -24,6 +24,7 @@ function startTimer() {
             clearInterval(timer);
             clickBtn.disabled = true;
             stopBtn.disabled = true;
+            startBtn.disabled = false;
             alert(`Time's up! You clicked ${clickCount} times.`);
         }
     }, 1000);
